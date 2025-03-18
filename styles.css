@@ -60,7 +60,7 @@ li a:hover{
 .header{
     background: url(/public/Screenshot_2025-03-17_161051-removebg-preview.png);
     background-position: center;
-    background-size: 200px;
+    background-size: 100px;
     background-repeat: no-repeat;
     height: 100vh;
     font-family: 'Playfair Display', sans-serif;
@@ -75,7 +75,7 @@ li a:hover{
     text-align: center;
 
 }
-/* Header end */
+
 
 .main-headings {
     position: absolute;
@@ -105,8 +105,9 @@ li a:hover{
     transform: translateY(60px);
 
 
-
 }
+
+/* Header end */
 
 
 
