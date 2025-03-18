@@ -60,7 +60,8 @@ li a:hover{
 .header{
     background: url(/public/Screenshot_2025-03-17_161051-removebg-preview.png);
     background-position: center;
-    background-size: cover;
+    background-size: 200px;
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: 'Playfair Display', sans-serif;
 }
