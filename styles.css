@@ -196,8 +196,17 @@ li a:hover{
 /* Coffee Container end */
 
 /* Products start */
+.products{
+    margin-top: 5rem;
 
+}
 
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
 
 
 
