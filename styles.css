@@ -228,9 +228,15 @@ li a:hover{
     border-radius: 5px;
     position: relative;
     margin-bottom: 4rem;
-    
+
 }
 
+.card-img.img-one{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+}
 
 /* Products End */
 
