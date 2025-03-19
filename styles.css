@@ -208,6 +208,11 @@ li a:hover{
     margin-bottom: 10rem;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 /* Products End */
