@@ -231,12 +231,148 @@ li a:hover{
 
 }
 
-.card-img.img-one{
+.card-img{
     width: 100px;
     height: 100px;
     position: absolute;
     top: -60px;
 }
 
+.img-one{
+    background: url(/public/Screenshot_2025-03-17_161051-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img-two{
+    background: url(/public/Screenshot_2025-03-17_161051-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    
+}.img-three{
+    background: url(/public/Screenshot_2025-03-17_161051-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card-title{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+
+}
+
+.card .items p {
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+
+}
+
 /* Products End */
+
+/* Footer Start */
+footer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+
+}
+footer .heading-info {
+    margin-bottom: 20px;
+}
+
+footer p{
+    line-height: 25px;
+}
+
+span{
+    color: var(--main-color);
+}
+
+hr{
+    margin-bottom: 20px;
+    border: var(--main-color);
+    width: 500px;
+    margin: 0 auto;
+}
+
+.para{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+/* Footer End */
+
+/* Project End */
+
+
+/* Responsiveness start */
+
+
+@media only screen and (max-width: 768px){
+    .main-heading, .primary-heading{
+        font-size: 2.5rem;
+        }
+    #our-story{
+        text-align: center;
+    }
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    #our-story .line{
+        display: none;
+    }
+    .content-section{
+        text-align: center;
+    }
+
+    #our-story .img-container .img{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .coffee-container .img-container{
+        margin-top: 5rem;
+        width: 50%;
+    }
+    .title{
+        margin: 0 auto; 
+    }
+
+    .title-two{
+        margin: 0 auto;
+    }
+    .title-three{
+        display:none;
+    }
+    .para{
+        display: none;
+    }
+
+}
+
+
+/* Responsiveness end*/
+
+
 
